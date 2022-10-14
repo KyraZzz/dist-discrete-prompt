@@ -47,6 +47,6 @@ class TrainerConfig:
     # Random seed
     random_seed: Optional[int] = None
     # Wandb reporting
-    report_to_wandb: bool = True
+    report_to_wandb: bool = False
     project_name: Optional[str] = 'rl-prompt'
     run_name: Optional[str] = None
